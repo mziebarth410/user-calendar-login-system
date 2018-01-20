@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body{
+	font-family: arial, sans-serif;
+	background-color: #9C9C9C;
+}
+
+h1{
+	font-size: 32px;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+marquee{
+	color: black;
+	padding: 0;
+	display: block;
+    margin: auto;
+    width: 50%;
+}
+
+h3{
+	font-size: 16px;
+	text-align: center;
+	font-weight: 800;
+	padding: 0;
+	margin: 0;
+
+}
+
+h5{
+	font-size: 24px;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+h6{
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 200;
+	padding: 0;
+	margin: 0;
+
+}
+
+p{
+	font-size: 16px;
+	text-align: center;
+}
+
+/*my schedule table styling*/
+
+table {
+	margin: auto;
+  font-family: arial, sans-serif;
+  border: 2px solid black;
+	background-color: #0CC6DC;
+	width: 60%;
+	text-align: center;
+}
+
+td, th {nter;
+    padding: 2px;
+}
+
+img{
+	display: block;
+    margin: auto;
+    width: 30%;
+}
+
+/*
+tr:nth-child(even) {
+    background-color: aqua;
+}
+
+tr:nth-child(odd) {
+    background-color: #E7E7E7;
+}*/
+
+/*Form input styling */
+
+form{
+    display: inline-block;
+    text-align: center;
+
+}
+
+.table_container{
+		margin: auto;
+		display: block;
+}
+
+.event_form{
+    width: 100%;
+	margin: auto;
+	display: block;
+	text-align: center;
+
+}
+
+.login_form{
+    width: 100%;
+	margin: auto;
+	display: block;
+	text-align: center;
+
+}
+
+.gmaps_form{
+	width: 100%;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+input[type=text], select {
+	font-size: 20px;
+    color:black;
+		background-color: #0CC6DC;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=password], select {
+	font-size: 20px;
+    color:black;
+	  background-color: #0CC6DC;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=number], select {
+	font-size: 20px;
+    color:black;
+	background-color: #0CC6DC;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=time], select {
+	font-size: 20px;
+    color:black;
+	background-color: #0CC6DC;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+	font-size: 20px;
+    background-color: #158DE7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button{
+	font-size: 20px;
+    background-color: #158DE7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=button] {
+	font-size: 20px;
+    background-color: #158DE7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #0904C8;
+}
+
+input[type=submit]:hover {
+    background-color: #0904C8;
+}
+
+/*navigation bar styling*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden;
+    background-color: #333;
+	width: 100%;
+}
+
+li {
+  /*  float: left;*/
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000;
+}
+
+
+      #right-panel {
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+		overflow: scroll;
+      }
+
+      #right-panel select, #right-panel input {
+        font-size: 15px;
+      }
+
+      #right-panel select {
+        width: 100%;
+      }
+
+      #right-panel i {
+        font-size: 12px;
+      }
+      #right-panel {
+        height: 100%;
+        float: right;
+        width: 390px;
+        overflow: auto;
+      }
+      #map {
+        margin-right: 400px;
+      }
+
+
+      @media print {
+        #map {
+          height: 500px;
+          margin: 0;
+        }
+        #right-panel {
+          float: none;
+          width: auto;
+        }
+      }
